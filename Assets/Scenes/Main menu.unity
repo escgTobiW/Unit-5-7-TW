@@ -3902,8 +3902,8 @@ MonoBehaviour:
   - name: press
     clip: {fileID: 8300000, guid: 2edeaeb65aa1d834bb9443286bcdfab5, type: 3}
     volume: 5.84
-    pitch: 0
-    loop: 1
+    pitch: 1
+    loop: 0
     source: {fileID: 0}
 --- !u!1 &2086188124
 GameObject:

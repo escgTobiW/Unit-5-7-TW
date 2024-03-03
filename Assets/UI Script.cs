@@ -12,7 +12,7 @@ public class UIScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Object.FindFirstObjectByType<AudioManagerScript>().Play("press");
+     
         Options.SetActive(false);
         
     }
