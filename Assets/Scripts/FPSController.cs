@@ -45,12 +45,12 @@ public class FPSController : MonoBehaviour
 
         //-------------
         
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.X))
         {
-            //SceneManager.LoadScene("Main menu");
+            SceneManager.LoadScene("Main menu");
 
             Object.FindFirstObjectByType<AudioManagerScript>().Play("press");
-            Application.Quit();
+            //Application.Quit();
             //UnityEditor.EditorApplication.isPlaying = false;
         }
 

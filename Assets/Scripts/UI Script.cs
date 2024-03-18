@@ -15,8 +15,9 @@ public class UIScript : MonoBehaviour
     {
      
         Options.SetActive(false);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
 
-        
     }
 
     // Update is called once per frame
